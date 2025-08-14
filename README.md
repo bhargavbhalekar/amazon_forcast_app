@@ -1,33 +1,97 @@
-﻿# amazon_forcast_app
+Perfect ✅
+Here’s a polished **README.md** for your GitHub repo:
 
-# 📈 Amazon Product Sales Forecasting Web App
+---
 
-A **machine learning web application** built with **Streamlit** and **Facebook Prophet** to predict future sales of products based on historical sales data.  
-The app uses time series forecasting to help sellers make **data-driven decisions** for sales growth and inventory optimization.
+# 📈 Amazon Sales Forecast App
+
+A Streamlit web app that predicts **future sales** using Facebook's Prophet forecasting model.
+You can upload your own historical sales data (CSV with `ds` for date and `y` for sales), and the app will generate a **forecast plot** and **trend breakdown**.
+
+🔗 **Live Demo:** [Amazon Sales Forecast App](https://amazonforcastapp-2m5q2ke4enj3k9paykhahy.streamlit.app/)
 
 ---
 
 ## 🚀 Features
-- Upload your historical sales data in CSV format (`ds` = date, `y` = sales).
-- Forecast future sales using Facebook Prophet.
-- Interactive visualization with trends, seasonality, and forecast values.
-- Works for any product or store sales history.
-- Helps prevent overstocking & stockouts.
+
+* Upload **historical sales data** in CSV format.
+* Automatic **data visualization** for historical and predicted sales.
+* Interactive **forecast chart** with zoom and hover.
+* **Trend & seasonality** breakdown.
+* Supports **daily, weekly, monthly, or yearly** data.
 
 ---
 
-## 🛠️ Tech Stack
-- **Python**
-- **Streamlit** (Web Interface)
-- **Facebook Prophet** (Forecasting)
-- **Pandas** (Data Processing)
-- **Plotly** (Interactive Graphs)
+## 📂 Sample Data
+
+If you don’t have your own dataset, you can try the included file:
+
+* [`sample_amazon_sales.csv`](sample_amazon_sales.csv)
+
+Example format:
+
+| ds         | y    |
+| ---------- | ---- |
+| 2023-01-01 | 1200 |
+| 2023-02-01 | 1500 |
+| 2023-03-01 | 1700 |
 
 ---
 
-## 📂 Installation & Usage
+## 🛠 How to Run Locally
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/amazon_forcast_app.git
-   cd amazon_forcast_app
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/bhargavbhalekar/amazon_forcast_app.git
+cd amazon_forcast_app
+```
+
+### 2️⃣ Create a Virtual Environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate    # On Mac/Linux
+.venv\Scripts\activate       # On Windows
+```
+
+### 3️⃣ Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🧮 Requirements
+
+* Python 3.9+
+* Streamlit
+* Prophet
+* Pandas
+* Plotly
+
+(Full list in `requirements.txt`)
+
+---
+
+## 📸 Screenshots
+
+*(You can add some images of your app here)*
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+I can also **add a screenshot** of your live app to the README so it looks even more attractive.
+Do you want me to make that screenshot for you?
